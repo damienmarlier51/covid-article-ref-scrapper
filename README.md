@@ -1,4 +1,4 @@
-Much of the codebase is from https://github.com/ismms-himc/covid-19_sinai_reviews.
+Much of the codebase is from https://github.com/ismms-himc/covid-19_sinai_reviews.</br>
 Code was editer to cater for use case described below.
 
 # Objective
@@ -18,7 +18,7 @@ Article references are also enriched using a relavance score which is computed u
 
 # Deployment
 
-Changes were made such as the code can be deployed on GCP Cloud Function.
+Changes were made such as the code can be deployed on GCP Cloud Function. </br>
 It can also be easily scheduled via Cloud Scheduler.
 
 In current use case, script is scheduled to run twice a day.
