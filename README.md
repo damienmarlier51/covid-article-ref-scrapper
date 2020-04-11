@@ -25,9 +25,8 @@ In current use case, script is scheduled to run twice a day.
 
 - Update constant variables in main.py
 - Get Gsheet credentials from https://console.developers.google.com/apis/
-- Update variables in src/main.py
-- Run once main.py to
-- Include OAuth 2.0 token in src folder
+- Update variables in ```src/main.py```
+- Run once main.py with ```use_cloud_function=False```
 - Deploy to GCP Cloud Function
   ```bash deploy.sh```
 
@@ -38,3 +37,5 @@ https://docs.google.com/spreadsheets/d/1YPLXlf5vNs6oGJUno0H3Kn_XD1VT67M9s8sc239c
 - Sheet1 contains articles currently reviewed
 - Sheet2 contains articled yet to be reviewed
 Articles in Sheet1 are not in Sheet2 and vice-versa.
+
+Feel free to improve on this repo!
